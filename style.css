@@ -1,0 +1,252 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #1F2937;
+    font-family: Roboto, sans-serif;
+    width: 100%;
+}
+
+.first {
+    color: #F9FAF8;
+    text-align: center;
+    
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+    width: 95%;
+    min-width: none;
+}
+
+
+.logo, .link {
+    text-decoration: none;
+
+}
+
+.logo {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    width: 30%;
+    margin: 10px 20px auto 200px;
+    min-width: none;
+    font-weight: bolder;
+}
+
+
+.link {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    min-width: none;
+}
+
+.header > .links {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 0px 1px auto auto;
+    padding: 10px 250px;
+    text-decoration: none;
+    width: 50%;
+    justify-content: space-evenly;
+    min-width: none;
+}
+
+.second {
+    display: flex;
+    width: 65%;
+    height: fit-content;
+    justify-content: center;
+    margin: auto;
+}    
+
+.intro, .image {
+    margin: 20px;
+}
+
+.intro > h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.intro > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #4482F6;
+    color: #F9FAF8;
+    border: 0;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6D747D;
+    color: #E5E7EB;
+}
+
+.info {
+    background-color: #F9FAF8;
+    width:  100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.random > h1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.squares {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.square {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square > p {
+    color: transparent;
+    padding: 52px;
+    border: 4px #4482F6 solid;
+    border-radius: 13%;
+    width: 74px;
+    height: 74px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.subtexts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.subtext {
+    display: flex;
+    flex-wrap: wrap;
+}
+.subtexts > .subtext > p {
+    color: #666E7A;
+    width: 50%;
+    width: 175px;
+    height: fit-content;
+    margin-left: 32px;
+    margin-right: 32px;
+    position: relative;
+    bottom: 30px;
+    
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote  > p{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    display: flex;
+    padding:  20px 350px 0px;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+
+.author > p {
+    padding:  0px 350px 0px;
+    display: flex;
+    justify-content: end;
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 30px;   
+}
+
+.action {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.to {   
+    background-color: #4482F6;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 250px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.call {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    font-size: 18px;
+    line-height: 0.1px;
+    position: relative;
+    right: 100px;
+}
+
+.call > .time {
+    display: flex;
+    font-size: 26px;
+    font-weight: bolder ;
+}
+
+.call > .sign {
+    display: flex;
+    position: relative;
+    bottom: 5px;
+}
+
+.button > button {
+    border: 2px solid white;
+    border-radius: 15px;
+    position: relative;
+    top: 23px;
+}
+
+footer {
+    color: #F9FAF8;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
